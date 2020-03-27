@@ -1,0 +1,7 @@
+@import "../../Sass/base";
+@import "../../Sass/mixins";
+.Header {
+  @include element("HomeLink");
+  @include element("PublicLink");
+  @include element("protectedLink");
+}

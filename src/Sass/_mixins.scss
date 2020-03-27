@@ -1,0 +1,12 @@
+// BACKGROND-IMAGE
+@mixin bg-img($src) {
+  background-image: url($src);
+  background-size: cover;
+  background-position: center;
+}
+// FOR ELEMENT
+@mixin element($element) {
+  &__#{$element} {
+    color: green;
+  }
+}
